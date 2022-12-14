@@ -1,0 +1,62 @@
+body
+{
+
+font-family: 'Merriweather', serif;
+    margin: 0;  text-align: center; /*everything that doesnt have a width set*/
+}
+h1
+{ color: #66BFBF;
+    /*width: 25%;
+    margin: 0 auto 0 auto; [or either write top bottom, right left like 0 auto]*/
+font-size:5.625rem;  /*16px=100%  we need 90 px*/ /*or either use em , [ 1em is width of 1 capital letter M ], 1em = 16px*/
+font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+}
+h2{ color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3{ color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+.top-container
+{ position: relative;
+
+
+    padding-top: 100px;
+
+
+    background-color: powderblue;
+}
+.middle-container
+{
+
+}
+.bottom-container
+{
+
+}
+.dev
+{
+    text-decoration: underline;
+}
+.bottom-cloud
+{
+    position:absolute;  bottom: 300px; left: 300px;
+}
+.top-cloud
+{
+    position: absolute;  top: 50px;  right: 300px;
+}
+.singing{
+  width: 206.996px;
+  height: 167.995px;
+}
+.sports{
+  width: 206.996px;
+  height: 167.995px;
+}
+.btn{ color: #11999E;}
+.footer-link {color: #11999E;}
